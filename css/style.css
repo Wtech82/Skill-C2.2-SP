@@ -1,0 +1,92 @@
+@font-face {
+	src: url('../fonts/ShadowsIntoLightTwo-Regular.ttf');
+	font-family: 'Shadows';
+}
+
+@font-face {
+	src: url('../fonts/Comfortaa-Regular.ttf');
+	font-family: 'CCF';
+}
+
+
+.body {
+width: auto;
+height: auto;
+background-image: url('../images/4.jpg');
+
+}
+
+.header {
+width: auto;
+height: 200px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 50px;    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 450px;      
+}
+
+.card {
+	background-color: #FFFACD;
+
+}
+
+.card h1 {
+	font-family: 'CCF';
+	font-size: 70px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.btn {
+
+	margin: 80px 10px 20px 20px;
+
+}
+
+.container_graf {
+    display: grid;
+    grid-gap: 20px;    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 450px;     
+}
+
+
+.card h2 {
+	font-family: 'CCF';
+	font-size: 30px;
+	text-align: center;
+
+
+}
+
+.card p {
+	font-family: 'CCF';
+	font-size: 15px;
+	text-align: center;
+
+}
+
+
+.line {
+	width: 400px;
+	height: 3px;
+	background-color: black;
+	border: none;
+}
+
+.line_card {
+	width: 280px;
+	height: 3px;
+	background-color: black;
+	border: none;
+	align-self:  center;
+}
+
+.footer {
+width: auto;
+height: 200px;
+}
